@@ -1,0 +1,17 @@
+# Desarrollo Prototipo De Vision
+## Descripción
+Este prototipo combina el procesamiento de imágenes en tiempo real con las capacidades de dibujo de la biblioteca Pygame para crear una aplicación interactiva que detecta y sigue el movimiento de la nariz en la cara de una persona utilizando la biblioteca MediaPipe. La cámara captura el video en vivo, mientras que MediaPipe detecta la cara y calcula las coordenadas de la punta de la nariz. Estas coordenadas se traducen a la pantalla de Pygame, donde se muestra un círculo que sigue el movimiento de la nariz. Además, se muestra una cruz que marca el centro de la pantalla y se traza una línea que sigue el historial de movimiento de la nariz. Si la nariz se desplaza fuera de los límites de la pantalla, se muestra un mensaje de advertencia. Este prototipo es un ejemplo de cómo integrar varias tecnologías para crear una experiencia interactiva basada en la detección y seguimiento de objetos en tiempo real.
+
+
+## Tecnologías usadas
+
+OpenCV: Utilizado para la captura de video desde la cámara y el procesamiento de imágenes, incluida la detección de la cara y el cálculo de las coordenadas de la punta de la nariz.
+
+Pygame: Empleado para crear la ventana de visualización y dibujar elementos gráficos, como el video capturado, el círculo que sigue el movimiento de la nariz y la línea que muestra el historial de movimiento.
+
+MediaPipe: Utilizado específicamente para la detección facial y el seguimiento de puntos de referencia, como la punta de la nariz, en el video en vivo.
+
+## Autores
+
+- Juan Esteban Acosta Rodriguez
+- Katherine Michelle Ortiz Burgos
